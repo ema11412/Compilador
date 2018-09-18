@@ -1,0 +1,17 @@
+T__0=1
+T__1=2
+BEGIN=3
+END=4
+PROC=5
+EPROC=6
+VAR=7
+SET=8
+WS=9
+'hello'=1
+'world'=2
+'Begin'=3
+'End'=4
+'Proc'=5
+'End-Proc'=6
+'Var'=7
+'Set'=8
