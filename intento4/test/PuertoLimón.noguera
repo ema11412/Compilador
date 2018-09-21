@@ -1,0 +1,37 @@
+Var v;
+Var v = 5;
+Var variable;
+Set variable = 7;
+
+Begin
+	PosStart(x,y);
+	For id = 9 Times
+		Add+v;
+		Less+variable;
+		ChangeDir(LEFT)
+		place block 8;
+		Call process2
+		Pos(x, y);
+		High Block;
+	FEnd
+	ChangeDir(SAME)
+	Call process1
+	Put Light;
+End
+
+Proc process1
+	When id = 9 Then
+		Add+v;
+		Less+variable;
+		Place Block;
+		High Block 7;
+	Whend
+	ChangeDir(BACK)
+End-Proc
+Proc process2
+	Keep
+		Place Block;
+		High Block 8;
+ 		Skip
+	Kend;
+End-Proc
